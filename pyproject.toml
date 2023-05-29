@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mouse-mover"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "mouse_mover"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+mouse = "^0.7.1"
+pandas = "^2.0.2"
+pyarrow = "^12.0.0"
+scikit-learn = "^1.2.2"
+tensorflow = "^2.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
